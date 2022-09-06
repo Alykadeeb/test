@@ -1,0 +1,41 @@
+aly
+Check the status of the repository.
+Add the file you created to make a commit.
+
+This is a command that is very often used when working with Git.  It shows us which files have been changed, which files are tracked, etc.
+
+We can add the untracked project files to the **staging area** based on the information from the `git status` command.
+
+At a later point, `git status` will report any modifications that we made to our tracked files before we decide to add them to the staging area again.
+
+**git add** command to add our files to the staging area, which allows them to be tracked.
+
+We can add a specific file to the staging area with the following command:
+
+```bash
+git add file.js
+```
+
+To add multiple files, we can do this:
+
+```bash
+git add file.js file2.js file3.js
+```
+
+Instead of having to add the files individually, we can also add all the files inside the project folder to the staging area:
+
+```bash
+git add .
+```
+
+By default, this adds **all the files and folders** inside the project folder to the staging area, from where they are ready to be committed and tracked.
+
+A commit is a snapshot of our code at a particular time, which we are saving to the commit history of our repository. After adding all the files that we want to track to the staging area with the `git add` command, we are ready to make a commit.
+
+To commit the files from the staging area, we use the following command:
+
+Inside the quotes, we should write a **commit message** which is used to identify it in the commit history.
+
+The commit message should be a descriptive summary of the changes that you are committing to the repository.
+
+After executing that command, you will get the technical details about the commit printed in the terminal. And that's basically it, you have successfully made a commit in your project!
