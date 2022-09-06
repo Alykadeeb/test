@@ -28,14 +28,4 @@ Instead of having to add the files individually, we can also add all the files i
 git add .
 ```
 
-By default, this adds **all the files and folders** inside the project folder to the staging area, from where they are ready to be committed and tracked.
-
-A commit is a snapshot of our code at a particular time, which we are saving to the commit history of our repository. After adding all the files that we want to track to the staging area with the `git add` command, we are ready to make a commit.
-
-To commit the files from the staging area, we use the following command:
-
-Inside the quotes, we should write a **commit message** which is used to identify it in the commit history.
-
-The commit message should be a descriptive summary of the changes that you are committing to the repository.
-
-After executing that command, you will get the technical details about the commit printed in the terminal. And that's basically it, you have successfully made a commit in your project!
+!
