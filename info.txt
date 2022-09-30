@@ -22,8 +22,4 @@ To add multiple files, we can do this:
 git add file.js file2.js file3.js
 ```
 
-Instead of having to add the files individually, we can also add all the files inside the project folder to the staging area:
 
-```bash
-git add .
-```
