@@ -12,14 +12,5 @@ At a later point, `git status` will report any modifications that we made to our
 
 We can add a specific file to the staging area with the following command:
 
-```bash
-git add file.js
-```
-
-To add multiple files, we can do this:
-
-```bash
-git add file.js file2.js file3.js
-```
 
 
