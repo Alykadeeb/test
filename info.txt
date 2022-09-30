@@ -10,7 +10,7 @@ At a later point, `git status` will report any modifications that we made to our
 
 **git add** command to add our files to the staging area, which allows them to be tracked.
 
-first step is to understand what happened
+first step is to understand what happened asdsadsafdsafsaf
 
 
 
