@@ -1,0 +1,2 @@
+Check out the branch that should receive the changes.
+Call the "git merge" command with the name of the branch that contains the desired changes.
