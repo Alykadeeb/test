@@ -7,6 +7,7 @@
 #define BIT_IS_CLEAR(REG,BIT) ( (REG & (1<<BIT)) == 0 )
 
 
+
 int main(){
 	unsigned char var=0;
 	SET_BIT(var,0);
