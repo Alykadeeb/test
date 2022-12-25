@@ -20,7 +20,7 @@ OUTDIR	= build
 SRCS	= $(sort $(wildcard *.c))
 OBJS	= $(SRCS:%.c=$(OUTDIR)/%.o)
 DEPS	= $(SRCS:%.c=$(OUTDIR)/%.d)
-OUT		= main
+OUT		= File1
 
 # Toolchain
 CC		= $(COMPILER_PATH)/gcc
