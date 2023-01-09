@@ -1,11 +1,11 @@
 #include <stdio.h>
 
-#define ROR(REG,num) ( REG= (REG>>num) | (REG<<(8-num)) )
-#define ROL(REG,num) ( REG= (REG<<num) | (REG>>(8-num)) )
-#define BIT_IS_SET(REG,BIT) ( REG & (1<<BIT) )
-#define SET_BIT(REG,BIT) ((REG) |= (1 << (BIT)))
-#define BIT_IS_CLEAR(REG,BIT) ( (REG & (1<<BIT)) == 0 )
-#define CLEAR_BIT(REG,BIT) ((REG) &= ~(1 << (BIT)))
+#define ROR(REG,num) /*place your macro here*/
+#define ROL(REG,num) /*place your macro here*/
+#define BIT_IS_SET(REG,BIT) /*place your macro here*/
+#define SET_BIT(REG,BIT) /*place your macro here*/
+#define BIT_IS_CLEAR(REG,BIT) /*place your macro here*/
+#define CLEAR_BIT(REG,BIT) /*place your macro here*/
 
 
 
