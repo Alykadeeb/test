@@ -82,6 +82,10 @@ void cosine()
 // Function to calculate tangent of angle in radians
 void tangent()
 {
+        
+        float num=0;
+        scanf("%f",&num);
+        printf("%f",tan(num));
      //enter your code here please :)
 }
 
