@@ -46,6 +46,20 @@ void multiplication()
 void division()
 {
     //enter your code here please :)
+	printf("\nDivision");
+	float n1 ,n2,res;
+	printf("\nPlease enter First number : ");
+	scanf("%f",&n1);
+	printf("\nPlease enter Second number : ");
+	scanf("%f",&n2);
+	if(n2==0)
+	{
+		printf("\nError, you can't divide to 0");
+	}else
+	{
+		printf("\nResult of Division { %f / %f = %f ", n1,n2,n1/n2);
+	}
+	
 }
 
 // Function to find remainder
