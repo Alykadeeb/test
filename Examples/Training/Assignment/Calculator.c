@@ -70,6 +70,14 @@ void sine()
 void cosine()
 {
      //enter your code here please :)
+     double angle;
+     double cos_result;
+     printf("angle:");
+     scanf("%lf",&angle);
+     
+     cos_result= cos(angle*3.14/180);
+     
+     printf("result:%.2lf",cos_result);
 }
 
 // Function to calculate tangent of angle in radians
