@@ -31,9 +31,18 @@ void addition()
 }
 
 // Function to subtract numbers
-void subtraction()
+int subtraction(int x , int y)
 {
-     //enter your code here please :)
+int sub=0;
+     if(x>y)
+{
+sub=x-y;
+}
+else
+{
+sub=y-x;
+}
+return sub;
 }
 
 // Function to multiply numbers
