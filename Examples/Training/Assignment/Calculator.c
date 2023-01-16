@@ -25,9 +25,11 @@ int menu()
 }
 
 // Function to add numbers
-void addition()
+void addition(int a, int b)
 {
     //enter your code here please :)
+	printf("Addition Function by Tamer");
+	printf("%d",a+b);
 }
 
 // Function to subtract numbers
