@@ -57,7 +57,14 @@ void remainder()
 // Function to calculate factorial of a number
 void factorial()
 {
-     //enter your code here please :)
+     printf("enter a value: ")
+	int x = 0;
+ 	scanf("%d",&x);
+	int fact = 1;
+	for(int i=1; i<x; i++){
+	fact = fact * i;
+	}
+	printf("factorial value: %d ", fact);
 }
 
 // Function to calculate sine of angle in radians
