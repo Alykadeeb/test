@@ -125,45 +125,12 @@ void main()
         // Switch Menu
         switch(menu())
         {
-            case 1: addition();
-                    break;
-
-            case 2: subtraction();
-                    break;
-
-            case 3: multiplication();
-                    break;
-
-            case 4: division();
-                    break;
-
-            case 5: remainder();
-                    break;
-
-            case 6: factorial();
-                    break;
-
-            case 7: sine();
-                    break;
-
-            case 8: cosine();
-                    break;
+     
 
             case 9: tangent();
                     break;
 
-            case 10:squareRoot();
-                    break;
-
-            case 11:cubeRoot();
-                    break;
-
-            case 12:power();
-                    break;
-
-            case 13:logBase10();
-                    break;
-
+          
             default:
                     printf("\nInvalid Choice !");
         }
