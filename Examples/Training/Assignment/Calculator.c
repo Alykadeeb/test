@@ -138,7 +138,8 @@ void main()
         switch(menu())
         {
      
-
+			case 4: division();
+					break;
             case 9: tangent();
                     break;
 
