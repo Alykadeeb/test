@@ -134,6 +134,7 @@ void main()
      
 
             case 9: tangent();
+                    sine();
                     break;
 
           case 7: 
