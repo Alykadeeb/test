@@ -39,7 +39,12 @@ void subtraction()
 // Function to multiply numbers
 void multiplication()
 {
-     //enter your code here please :)
+	int num1=0,num2=0;
+	printf("Enter number1: ");
+	scanf("%d", &num1);
+	printf("\nEnter number2: ");
+	scanf("%d", &num2);	
+	printf("multiplication result = %d\n", num1*num2);
 }
 
 // Function to divide numbers
@@ -83,10 +88,6 @@ void cosine()
 // Function to calculate tangent of angle in radians
 void tangent()
 {
-        
-        float num=0;
-        scanf("%f",&num);
-        printf("%f",tan(num));
      //enter your code here please :)
 }
 
