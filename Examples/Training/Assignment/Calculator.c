@@ -132,9 +132,10 @@ void main()
         switch(menu())
         {
      
-
-            case 9: tangent();
-                    break;
+            case 8:
+                cosine();
+                break;
+            
 
           
             default:
