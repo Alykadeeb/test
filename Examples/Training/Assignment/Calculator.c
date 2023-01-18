@@ -125,8 +125,7 @@ void main()
         // Switch Menu
         switch(menu())
         {
-     
-
+			case 1:addition(5,6);break;
             case 9: tangent();
                     break;
 
