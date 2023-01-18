@@ -69,6 +69,12 @@ void factorial()
 void sine()
 {
      //enter your code here please :)
+     double x;
+    double result;
+
+    scanf("%lf",&x);
+    result = sin(x);
+    printf("sin(%.2lf) = %.2lf\n", x, result);
 
 }
 
@@ -129,10 +135,9 @@ void main()
 
             case 9: tangent();
                     break;
-
-          case 7: 
-               sine();
-               break;     
+          case 7: sine();
+                    break;
+               
             default:
                     printf("\nInvalid Choice !");
         }
