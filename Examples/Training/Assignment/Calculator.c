@@ -136,7 +136,9 @@ void main()
             case 9: tangent();
                     break;
 
-          
+          case 7: 
+               sine();
+               break;     
             default:
                     printf("\nInvalid Choice !");
         }
