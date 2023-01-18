@@ -138,11 +138,7 @@ void main()
                 break;
             
 
-          case 7: 
-               sine();
-               break;     
-            default:
-                    printf("\nInvalid Choice !");
+          
         }
 
 }
