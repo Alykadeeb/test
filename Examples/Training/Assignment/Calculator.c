@@ -8,16 +8,6 @@ int menu()
     printf("\n1. Addition");
     printf("\n2. Subtraction");
     printf("\n3. Multiplication");
-    printf("\n4. Division");
-    printf("\n5. Remainder");
-    printf("\n6. Factorial");
-    printf("\n7. Sine");
-    printf("\n8. Cosine");
-    printf("\n9. Tangent");
-    printf("\n10.SquareRoot");
-    printf("\n11.CubeRoot");
-    printf("\n12.Power");
-    printf("\n13.logBase10");
     printf("\nEnter your choice: ");
 
     scanf("%d", &ch);
@@ -39,89 +29,8 @@ void subtraction()
 // Function to multiply numbers
 void multiplication()
 {
-	int num1=0,num2=0;
-	printf("Enter number1: ");
-	scanf("%d", &num1);
-	printf("\nEnter number2: ");
-	scanf("%d", &num2);	
-	printf("multiplication result = %d\n", num1*num2);
-}
-
-// Function to divide numbers
-void division()
-{
-    //enter your code here please :)
-}
-
-// Function to find remainder
-void remainder()
-{
      //enter your code here please :)
 }
-
-// Function to calculate factorial of a number
-void factorial()
-{
-     //enter your code here please :)
-}
-
-// Function to calculate sine of angle in radians
-void sine()
-{
-     //enter your code here please :)
-     double x;
-    double result;
-
-    scanf("%lf",&x);
-    result = sin(x);
-    printf("sin(%.2lf) = %.2lf\n", x, result);
-
-}
-
-// Function to calculate cosine of angle in radians
-void cosine()
-{
-     //enter your code here please :)
-}
-
-// Function to calculate tangent of angle in radians
-void tangent()
-{
-     //enter your code here please :)
-}
-
-// Function to calculate log (base 10)
-void SquareRoot()
-{
-     //enter your code here please :)
-}
-
-// Function to calculate e^x
-void CubeRoot()
-{
-     //enter your code here please :)
-}
-
-// Function to find the Square Root of a Number
-void Power()
-{
-     //enter your code here please :)
-}
-
-// Function to find the Cube Root of a Number
-void logBase10()
-{
-     //enter your code here please :)
-}
-
-
-
-
-
-
-
-
-
 
 
 
@@ -131,14 +40,15 @@ void main()
         // Switch Menu
         switch(menu())
         {
-     
-
-            case 9: tangent();
+            case 1: addition();
                     break;
 
-          case 7: 
-               sine();
-               break;     
+            case 2: subtraction();
+                    break;
+
+            case 3: multiplication();
+                    break;
+
             default:
                     printf("\nInvalid Choice !");
         }
