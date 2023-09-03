@@ -14,6 +14,7 @@ int main(void)
 	unsigned char var=0;
 	SET_BIT(var,0);
 	SET_BIT(var,1);
+	
 	SET_BIT(var,2);
 	printf("var=0x%x\n",var);
 	CLEAR_BIT(var,2);
