@@ -15,17 +15,9 @@ int menu()
 }
 
 // Function to add numbers
-<<<<<<< HEAD
 void addition(int a,int b,int c,int d,int e,int f,int g)
 {
     //HELLO FROM MOSTAFA ELSAYED.
-=======
-int addition(int x , int y)
-{
-    //enter your code here please :)
-        int z = x + y;
-        return z;
->>>>>>> main
 }
 
 // // Function to subtract numbers
