@@ -15,9 +15,9 @@ int menu()
 }
 
 // Function to add numbers
-void addition()
+void addition(int a,int b,int c,int d,int e,int f,int g)
 {
-    //enter your code here please :)
+    //HELLO FROM MOSTAFA ELSAYED.
 }
 
 // Function to subtract numbers
