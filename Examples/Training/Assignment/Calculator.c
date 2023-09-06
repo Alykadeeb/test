@@ -6,8 +6,8 @@ int menu()
 {
     int ch;
     printf("\n1. Addition");
-    printf("\n2. Subtraction");
-    printf("\n3. Multiplication");
+    //printf("\n2. Subtraction");
+    //printf("\n3. Multiplication");
     printf("\nEnter your choice: ");
 
     scanf("%d", &ch);
@@ -15,22 +15,30 @@ int menu()
 }
 
 // Function to add numbers
+<<<<<<< HEAD
 void addition(int a,int b,int c,int d,int e,int f,int g)
 {
     //HELLO FROM MOSTAFA ELSAYED.
+=======
+int addition(int x , int y)
+{
+    //enter your code here please :)
+        int z = x + y;
+        return z;
+>>>>>>> main
 }
 
-// Function to subtract numbers
-void subtraction()
-{
-     //enter your code here please :)
-}
+// // Function to subtract numbers
+// void subtraction()
+// {
+//      //enter your code here please :)
+// }
 
-// Function to multiply numbers
-void multiplication()
-{
-     //enter your code here please :)
-}
+// // Function to multiply numbers
+// void multiplication()
+// {
+//      //enter your code here please :)
+// }
 
 
 
@@ -43,11 +51,11 @@ void main()
             case 1: addition();
                     break;
 
-            case 2: subtraction();
-                    break;
+        //     case 2: subtraction();
+        //             break;
 
-            case 3: multiplication();
-                    break;
+        //     case 3: multiplication();
+        //             break;
 
             default:
                     printf("\nInvalid Choice !");
