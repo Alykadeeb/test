@@ -15,11 +15,11 @@ int menu()
 }
 
 // Function to add numbers
-int addition(int x , int y)
+int addition(int I1 , int I2 , int I3, int I4, int I5, int I6, int I7, int I8)
 {
     //enter your code here please :)
-        int z = x + y;
-        return z;
+        int sum = I1 + I2 + I3 + I4 + I5 + I6 + I7 + I8;
+        return sum;
 }
 
 // // Function to subtract numbers
