@@ -20,9 +20,14 @@ void addition(int x,int y,int z,int a,int b)
 void addition(int x,int y,int z,int a,int b)
 {
     //enter your code here please :)
-    // hellooooo this issasssssss
     
     
+}
+
+// Function to subtract numbers
+void subtraction()
+{
+     //enter your code here please :)
 }
 
 // Function to subtract numbers
