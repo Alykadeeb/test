@@ -5,39 +5,30 @@
 int menu()
 {
     int ch;
-    printf("\n1. Addition");
-    //printf("\n2. Subtraction");
+    //printf("\n1. Addition");
+    printf("\n2. Subtraction");
     //printf("\n3. Multiplication");
-    printf("\nEnter your choice: ");
+    //printf("\nEnter your choice: ");
 
     scanf("%d", &ch);
     return ch;
 }
 
 // Function to add numbers
-// int addition()
-// {
-//     //enter your code here please :)
-//     return ;
-// }
-
-<<<<<<< HEAD
-// // Function to subtract numbers
-int subtraction(int num1, int num2)
+int addition()
 {
-     //enter your code here please :)
-    return num1 - num2;
-
+    //enter your code here please :)
+    return ;
 }
-=======
-// Function to subtract numbers
-// void subtraction()
-// {
-//      //enter your code here please :)
-// }
->>>>>>> main
 
-//  Function to multiply numbers
+// // Function to subtract numbers
+int subtraction(int num1, int num2, int num3, int num4)
+{
+	//enter your code here please :)
+	return (num1 - num2 - num3 - num4);
+}
+
+// // Function to multiply numbers
 // void multiplication()
 // {
 //      //enter your code here please :)
