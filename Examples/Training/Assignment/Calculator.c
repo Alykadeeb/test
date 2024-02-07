@@ -22,12 +22,10 @@ int addition(int a, int b)
 }
 
 
-// // Function to subtract numbers
-int subtraction(int num1, int num2)
+// Function to subtract numbers
+signed int subtraction(signed int n1, signed int n2, signed int n3)
 {
-     //enter your code here please :)
-    return num1 - num2;
-
+    return n1-n2-n3;
 }
 
  // Function to multiply numbers
@@ -45,7 +43,7 @@ void main()
         // Switch Menu
         switch(menu())
         {
-            case 1: addition();
+            case 1: //addition();
                     break;
 
         //     case 2: subtraction();
