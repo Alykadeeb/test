@@ -28,11 +28,11 @@ signed int subtraction(signed int n1, signed int n2, signed int n3)
     return n1-n2-n3;
 }
 
-// // Function to multiply numbers
-long long multiplication(int a,int b,int c)
-{
-    return a*b*c;
-}
+ // Function to multiply numbers
+ int multiplication(int x, int y)
+ {
+      return x*y;
+ }
 
 
 
@@ -49,8 +49,8 @@ void main()
         //     case 2: subtraction();
         //             break;
 
-            case 3: multiplication(4*5*6);
-                    break;
+             case 3: multiplication(1,2);
+                     break;
 
             default:
                     printf("\nInvalid Choice !");
