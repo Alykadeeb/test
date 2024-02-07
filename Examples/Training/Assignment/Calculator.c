@@ -28,17 +28,18 @@ int addition(int Omar, int b)
 //      //enter your code here please :)
 // }
 
-//  Function to multiply numbers
-// void multiplication()
-// {
-//      //enter your code here please :)
-// }
+// // Function to multiply numbers
+long long multiplication(int a,int b,int c)
+{
+    return a*b*c;
+}
 
 
 
 // MAIN
 void main()
-{
+{       
+
         // Switch Menu
         switch(menu())
         {
@@ -48,8 +49,13 @@ void main()
         //     case 2: subtraction();
         //             break;
 
+<<<<<<< HEAD
         //     case 3: multiplication();
         //             break;
+=======
+            case 3: multiplication(4*5*6);
+                    break;
+>>>>>>> 08147ea (Fixing Merge Conflect)
 
             default:
                     printf("\nInvalid Choice !");
