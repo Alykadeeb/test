@@ -27,11 +27,11 @@ int addition()
 //      //enter your code here please :)
 // }
 
-// // Function to multiply numbers
-// void multiplication()
-// {
-//      //enter your code here please :)
-// }
+ // Function to multiply numbers
+ int multiplication(int x, int y)
+ {
+      return x*y;
+ }
 
 
 
@@ -47,8 +47,8 @@ void main()
         //     case 2: subtraction();
         //             break;
 
-        //     case 3: multiplication();
-        //             break;
+             case 3: multiplication();
+                     break;
 
             default:
                     printf("\nInvalid Choice !");
