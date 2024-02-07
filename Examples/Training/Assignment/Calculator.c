@@ -15,10 +15,10 @@ int menu()
 }
 
 // Function to add numbers
-int addition(int num1, int num2, int num3)     
+int addition(int var1,int var2,int var3,int var4)
 {
     //enter your code here please :)
-    return num1 + num2 + num3;
+    return var1+var2+var3+var4;
 }
 
 // Function to subtract numbers
@@ -27,11 +27,11 @@ signed int subtraction(signed int n1, signed int n2, signed int n3)
     return n1-n2-n3;
 }
 
-// // Function to multiply numbers
-long long multiplication(int a,int b,int c)
-{
-    return a*b*c;
-}
+ // Function to multiply numbers
+ int multiplication(int x, int y, int a, int b)
+ {
+      return (x*y*a*b);
+ }
 
 
 
@@ -48,8 +48,8 @@ void main()
         //     case 2: subtraction();
         //             break;
 
-            case 3: multiplication(4*5*6);
-                    break;
+             case 3: multiplication(1,2);
+                     break;
 
             default:
                     printf("\nInvalid Choice !");
