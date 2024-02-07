@@ -7,7 +7,7 @@ int menu()
     int ch;
     printf("\n1. Addition");
     //printf("\n2. Subtraction");
-    //printf("\n3. Multiplication");
+    printf("\n3. Multiplication");
     printf("\nEnter your choice: ");
 
     scanf("%d", &ch);
@@ -28,10 +28,10 @@ int addition()
 // }
 
 // // Function to multiply numbers
-// void multiplication()
-// {
-//      //enter your code here please :)
-// }
+void multiplication(int a,int b,int c)
+{
+    return a*b*c;
+}
 
 
 
@@ -47,8 +47,8 @@ void main()
         //     case 2: subtraction();
         //             break;
 
-        //     case 3: multiplication();
-        //             break;
+            case 3: multiplication();
+                    break;
 
             default:
                     printf("\nInvalid Choice !");
