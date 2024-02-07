@@ -21,11 +21,21 @@ int addition(int var1,int var2,int var3,int var4)
     return var1+var2+var3+var4;
 }
 
+<<<<<<< HEAD
+// // Function to subtract numbers
+int subtraction(int num1, int num2)
+{
+     //enter your code here please :)
+    return num1 - num2;
+
+}
+=======
 // Function to subtract numbers
 // void subtraction()
 // {
 //      //enter your code here please :)
 // }
+>>>>>>> main
 
 //  Function to multiply numbers
 // void multiplication()
