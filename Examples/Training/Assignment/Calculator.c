@@ -28,9 +28,9 @@ signed int subtraction(signed int n1, signed int n2, signed int n3)
 }
 
  // Function to multiply numbers
- int multiplication(int x, int y, int a, int b)
+ int multiplication(int x, int y)
  {
-      return (x*y*a*b);
+      return x*y;
  }
 
 
@@ -48,7 +48,11 @@ void main()
         //     case 2: subtraction();
         //             break;
 
+<<<<<<< HEAD
              case 3: multiplication(1,2);
+=======
+             case 3: multiplication();
+>>>>>>> 0f879a6 (Multiply with 2 arguments)
                      break;
 
             default:
