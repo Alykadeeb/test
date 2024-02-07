@@ -21,6 +21,10 @@ int addition(int var1,int var2,int var3,int var4)
     return var1+var2+var3+var4;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6444a98 (Merge pull request #24 from Alykadeeb/batch4/group2/Omar)
 // Function to subtract numbers
 signed int subtraction(signed int n1, signed int n2, signed int n3)
 {
