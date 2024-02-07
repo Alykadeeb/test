@@ -7,6 +7,8 @@
 #define BIT_IS_CLEAR(REG,BIT) /*place your macro here*/
 #define CLEAR_BIT(REG,BIT) /*place your macro here*/
 
+
+
 //...
 
 int main(void)

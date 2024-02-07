@@ -14,12 +14,13 @@ int menu()
     return ch;
 }
 
-// // Function to add numbers
-// int addition(int x, int y,int z,int w,int m,int n,)//my change
+// Function to add numbers
+// int addition()
 // {
 //     //enter your code here please :)
-//     return x+y+z+w+m+n;
+//     return ;
 // }
+
 
 // Function to subtract numbers
 signed int subtraction(signed int n1, signed int n2, signed int n3)
@@ -28,6 +29,8 @@ signed int subtraction(signed int n1, signed int n2, signed int n3)
 }
 
 // // Function to multiply numbers
+=======
+//  Function to multiply numbers
 // void multiplication()
 // {
 //      //enter your code here please :)
