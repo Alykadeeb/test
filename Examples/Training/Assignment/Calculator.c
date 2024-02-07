@@ -43,15 +43,7 @@ void main()
         // Switch Menu
         switch(menu())
         {
-<<<<<<< HEAD
-<<<<<<< HEAD
-            case 1: //addition();
-=======
             case 1: addition(1,2,3,4);
->>>>>>> 300a226 (Fix rebasing conflicts)
-=======
-            case 1: addition(1,2,3,4);
->>>>>>> c7fc3d9 (Add Addition implementation with 4 arguments)
                     break;
 
         //     case 2: subtraction();
