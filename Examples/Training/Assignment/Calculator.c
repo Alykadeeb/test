@@ -28,9 +28,9 @@ signed int subtraction(signed int n1, signed int n2, signed int n3)
 }
 
  // Function to multiply numbers
- int multiplication(int x, int y)
+ int multiplication(int x, int y, int a, int b)
  {
-      return x*y;
+      return (x*y*a*b);
  }
 
 
