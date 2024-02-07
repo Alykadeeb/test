@@ -22,10 +22,12 @@ int addition()
 }
 
 // // Function to subtract numbers
-// void subtraction()
-// {
-//      //enter your code here please :)
-// }
+int subtraction(int num1, int num2)
+{
+     //enter your code here please :)
+    return num1 - num2;
+
+}
 
 // // Function to multiply numbers
 // void multiplication()
