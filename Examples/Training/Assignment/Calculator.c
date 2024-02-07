@@ -6,7 +6,7 @@ int menu()
 {
     int ch;
     printf("\n1. Addition");
-    //printf("\n2. Subtraction");
+    printf("\n2. Subtraction");
     //printf("\n3. Multiplication");
     printf("\nEnter your choice: ");
 
@@ -14,27 +14,18 @@ int menu()
     return ch;
 }
 
-// Function to add numbers
-<<<<<<< HEAD
-int addition(int x, int y,int z,int w,int m,int n,)//my change
-{
-    //enter your code here please :)
-    return x+y+z+w+m+n;
-}
-=======
-int addition(int x0, int x1, int x2, int x3, int x4, int x5, int x6, int x7, int x8)
-{
-    //enter your code here please :)
-    int sum = x0 + x1 + x2 + x3 + x4 + x5 + x6 + x7 + x8;
-	return sum;
-
->>>>>>> main
-
-// // Function to subtract numbers
-// void subtraction()
+// // Function to add numbers
+// int addition(int x, int y,int z,int w,int m,int n,)//my change
 // {
-//      //enter your code here please :)
+//     //enter your code here please :)
+//     return x+y+z+w+m+n;
 // }
+
+// Function to subtract numbers
+signed int subtraction(signed int n1, signed int n2, signed int n3)
+{
+    return n1-n2-n3;
+}
 
 // // Function to multiply numbers
 // void multiplication()
@@ -50,7 +41,7 @@ void main()
         // Switch Menu
         switch(menu())
         {
-            case 1: addition();
+            case 1: //addition();
                     break;
 
         //     case 2: subtraction();
