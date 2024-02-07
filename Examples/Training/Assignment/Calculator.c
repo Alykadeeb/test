@@ -15,11 +15,12 @@ int menu()
 }
 
 // Function to add numbers
-// int addition()
-// {
-//     //enter your code here please :)
-//     return ;
-// }
+int addition(int a, int b)
+{
+    //enter your code here please :)
+    return (a + b);
+}
+
 
 // // Function to subtract numbers
 int subtraction(int num1, int num2)
