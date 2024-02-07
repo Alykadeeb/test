@@ -15,19 +15,27 @@ int menu()
 }
 
 // Function to add numbers
+<<<<<<< HEAD
 int addition(int num1, int num2, int num3)    
 {
     //enter your code here please :)
     return num1 + num2 + num3;
 }
+=======
+// int addition()
+// {
+//     //enter your code here please :)
+//     return ;
+// }
+>>>>>>> main
 
-// // Function to subtract numbers
+// Function to subtract numbers
 // void subtraction()
 // {
 //      //enter your code here please :)
 // }
 
-// // Function to multiply numbers
+//  Function to multiply numbers
 // void multiplication()
 // {
 //      //enter your code here please :)
