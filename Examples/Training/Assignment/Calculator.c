@@ -15,10 +15,10 @@ int menu()
 }
 
 // Function to add numbers
-int addition(int num1, int num2, int num3)    
+int addition(int var1,int var2,int var3,int var4)
 {
     //enter your code here please :)
-    return num1 + num2 + num3;
+    return var1+var2+var3+var4;
 }
 
 // Function to subtract numbers
