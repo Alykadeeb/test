@@ -15,10 +15,10 @@ int menu()
 }
 
 // Function to add numbers
-int addition(int a, int b)
+int addition(int var1,int var2,int var3,int var4)
 {
     //enter your code here please :)
-    return (a + b);
+    return var1+var2+var3+var4;
 }
 
 
@@ -43,7 +43,11 @@ void main()
         // Switch Menu
         switch(menu())
         {
+<<<<<<< HEAD
             case 1: //addition();
+=======
+            case 1: addition(1,2,3,4);
+>>>>>>> 300a226 (Fix rebasing conflicts)
                     break;
 
         //     case 2: subtraction();
