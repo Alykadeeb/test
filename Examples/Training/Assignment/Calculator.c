@@ -30,7 +30,7 @@ signed int subtraction(signed int n1, signed int n2, signed int n3)
  // Function to multiply numbers
  int multiplication(int x, int y, int a, int b)
  {
-      return (x*y*a*b);
+      return (x*y*a*b); // Adding comment to make commit 1
  }
 
 
@@ -56,3 +56,5 @@ void main()
         }
 
 }
+
+
