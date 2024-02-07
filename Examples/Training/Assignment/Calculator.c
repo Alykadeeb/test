@@ -15,7 +15,7 @@ int menu()
 }
 
 // Function to add numbers
-int addition(int a, int b)
+int addition(int Omar, int b)
 {
     //enter your code here please :)
     return (a + b);
