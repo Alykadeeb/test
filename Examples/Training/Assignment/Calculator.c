@@ -35,12 +35,16 @@ int addition(int var1,int var2,int var3,int var4)
 >>>>>>> cca0cade8a5eaa6fc336aa7ac2c0ef2158e58144
 }
 
+<<<<<<< HEAD
 // // Function to subtract numbers
 int subtraction(int num1, int num2)
-{
-     //enter your code here please :)
-    return num1 - num2;
+=======
 
+// Function to subtract numbers
+signed int subtraction(signed int n1, signed int n2, signed int n3)
+>>>>>>> main
+{
+    return n1-n2-n3;
 }
 
 // // Function to multiply numbers
@@ -58,7 +62,11 @@ void main()
         // Switch Menu
         switch(menu())
         {
+<<<<<<< HEAD
             case 1: addition(1,2,3,4);
+=======
+            case 1: //addition();
+>>>>>>> main
                     break;
 
         //     case 2: subtraction();
