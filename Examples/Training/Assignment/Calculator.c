@@ -48,8 +48,18 @@ void main()
         //     case 2: subtraction();
         //             break;
 
+<<<<<<< HEAD
              case 3: multiplication(1,2);
                      break;
+=======
+<<<<<<< HEAD
+        //     case 3: multiplication();
+        //             break;
+=======
+            case 3: multiplication(4*5*6);
+                    break;
+>>>>>>> 08147ea (Fixing Merge Conflect)
+>>>>>>> 496db8f (Cherry pick multiplication)
 
             default:
                     printf("\nInvalid Choice !");
