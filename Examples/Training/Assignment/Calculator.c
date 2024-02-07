@@ -22,10 +22,12 @@ int addition(int var1,int var2,int var3,int var4)
 }
 
 
-// Function to subtract numbers
-signed int subtraction(signed int n1, signed int n2, signed int n3)
+// // Function to subtract numbers
+int subtraction(int num1, int num2)
 {
-    return n1-n2-n3;
+     //enter your code here please :)
+    return num1 - num2;
+
 }
 
  // Function to multiply numbers
