@@ -22,23 +22,17 @@ int addition(int a, int b)
 }
 
 
-// // Function to subtract numbers
-int subtraction(int num1, int num2, int num3, int num4)
+// Function to subtract numbers
+signed int subtraction(signed int n1, signed int n2, signed int n3)
 {
-	//enter your code here please :)
-	return (num1 - num2 - num3 - num4);
+    return n1-n2-n3;
 }
 
-// // Function to multiply numbers
-// void multiplication()
-// {
-//      //enter your code here please :)
-// }
-// // Function to multiply numbers
-long long multiplication(int a,int b,int c)
-{
-    return a*b*c;
-}
+ // Function to multiply numbers
+ int multiplication(int x, int y)
+ {
+      return x*y;
+ }
 
 
 
@@ -49,14 +43,14 @@ void main()
         // Switch Menu
         switch(menu())
         {
-            case 1: addition();
+            case 1: //addition();
                     break;
 
         //     case 2: subtraction();
         //             break;
 
-            case 3: multiplication(4*5*6);
-                    break;
+             case 3: multiplication(1,2);
+                     break;
 
             default:
                     printf("\nInvalid Choice !");
