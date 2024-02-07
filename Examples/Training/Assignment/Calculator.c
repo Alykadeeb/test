@@ -23,9 +23,9 @@ int addition(int a, int b)
 
 
 // Function to subtract numbers
-signed int subtraction(signed int n1, signed int n2, signed int n3)
+signed int subtraction(signed int n1, signed int n2, signed int n3, signed int n4)
 {
-    return n1-n2-n3;
+    return n4-n1-n2-n3;
 }
 
  // Function to multiply numbers
