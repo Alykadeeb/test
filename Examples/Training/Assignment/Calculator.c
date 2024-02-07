@@ -16,6 +16,7 @@ int menu()
 
 // Function to add numbers
 <<<<<<< HEAD
+<<<<<<< HEAD
 int addition(int a, int b)
 {
     //enter your code here please :)
@@ -26,8 +27,13 @@ int addition(int var1,int var2,int var3,int var4)
     //enter your code here please :)
     return var1+var2+var3+var4;
 >>>>>>> c7fc3d9 (Add Addition implementation with 4 arguments)
+=======
+int addition(int var1,int var2,int var3,int var4)
+{
+    //enter your code here please :)
+    return var1+var2+var3+var4;
+>>>>>>> cca0cade8a5eaa6fc336aa7ac2c0ef2158e58144
 }
-
 
 // // Function to subtract numbers
 int subtraction(int num1, int num2)
