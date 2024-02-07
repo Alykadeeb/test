@@ -15,20 +15,20 @@ int menu()
 }
 
 // Function to add numbers
-int addition()
-{
-    //enter your code here please :)
-    return ;
-}
+// int addition()
+// {
+//     //enter your code here please :)
+//     return ;
+// }
 
-// // Function to subtract numbers
+// Function to subtract numbers
 // void subtraction()
 // {
 //      //enter your code here please :)
 // }
 
 // // Function to multiply numbers
-void multiplication(int a,int b,int c)
+long long multiplication(int a,int b,int c)
 {
     return a*b*c;
 }
@@ -37,7 +37,8 @@ void multiplication(int a,int b,int c)
 
 // MAIN
 void main()
-{
+{       
+
         // Switch Menu
         switch(menu())
         {
@@ -47,7 +48,7 @@ void main()
         //     case 2: subtraction();
         //             break;
 
-            case 3: multiplication();
+            case 3: multiplication(4*5*6);
                     break;
 
             default:
